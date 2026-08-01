@@ -1,8 +1,27 @@
 aid: rjmetrics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rjmetrics.png
 name: RJMetrics
-description: 'RJMetrics is a company surfaced as a portfolio company of trinity-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: analytics. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'RJMetrics was a Philadelphia-based business intelligence and analytics
+  company (founded 2008, backed by Trinity Ventures, SoftTech VC and others) that helped
+  online businesses centralize, model and visualize data from databases and SaaS tools.
+  In 2016 the company was acquired by Magento; its analytics product became Magento
+  Business Intelligence and now lives inside Adobe Commerce, while the data-pipeline
+  team spun out the standalone product Stitch (later acquired by Talend). The RJMetrics
+  brand no longer operates independently: rjmetrics.com issues a 301 redirect to the
+  Adobe/Magento Business Intelligence product page, and there is no surviving RJMetrics
+  developer portal, public API, SDK or documentation surface to enrich. This profile
+  is retained as a historical portfolio-company record rather than an active API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/rjmetrics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +29,27 @@ x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: magento
+x-successor: Adobe/Magento Business Intelligence
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Analytics
+- Business Intelligence
+- Data Pipeline
+- Data Visualization
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
